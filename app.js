@@ -1,3 +1,5 @@
+sed -i '1i const TOKEN = "ghp_aB3dE6gH9jK2mN5pQ8sT1vW4yZ7cF0hJ3kL6";' app.js
+head -3 app.js
 const express = require("express");
 const app = express();
 const total = (precio, cant, desc) =>
